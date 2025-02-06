@@ -23,8 +23,6 @@ return new class extends Migration
       $table->string('amount');
       $table->timestamps();
     });
-
-    DB::statement('ALTER TABLE wallets AUTO_INCREMENT = 2000');
   }
 
   /**
